@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+.greetingContainer {
+  text-align: center;
+  animation: shiftIn 1s ease-out; /* Animation properties */
+  align-items: center;
+  justify-content: center;
+  margin-top: 18rem;
+}
+
+.greetingMain {
+  margin-left: -17rem;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #4717f6;
+}
+
+.greetingSub {
+  font-size: 41px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #e7dfdd;
+}
+
+.greetingSub1 {
+  margin-left: -4rem;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #e7dfdd;
+}
+
+@keyframes shiftIn {
+  from {
+    transform: translateX(-30px); /* Initial position outside the viewport */
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0); /* Final position at center */
+    opacity: 1;
+  }
+}
