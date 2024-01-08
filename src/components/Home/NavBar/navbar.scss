@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 
 nav {
-  background-color: #0b0912; // Set your desired background color
-  padding: 1rem; // Adjust the padding as needed
+  background-color: #1e1f1f; // Set your desired background color
+  padding: 0.2rem; // Adjust the padding as needed
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  padding-left: 2.5%;
 
   ul {
     list-style: none;
@@ -13,16 +14,16 @@ nav {
 
     li {
       display: inline-block;
-      margin-right: 4rem; // Adjust the spacing between menu items
-      font-size: 16px; // Set the font size
+      margin-right: 6rem;
+      font-size: 14px;
       font-family: "Montserrat", sans-serif;
 
       a {
         text-decoration: none; // Remove underline from links
-        color: white; // Set the link color
+        color: #ffffff; // Set the link color
 
         &:hover {
-          color: #4717F6; // Change the color on hover
+          color: #ececec; // Change the color on hover
         }
       }
     }

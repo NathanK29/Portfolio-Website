@@ -2,7 +2,7 @@
 
 .greetingContainer {
   text-align: center;
-  animation: shiftIn 1s ease-out; /* Animation properties */
+  animation: shiftIn 1s ease-out;
   align-items: center;
   justify-content: center;
   margin-top: 18rem;
@@ -13,14 +13,14 @@
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  color: #4717f6;
+  color: #92d9f3;
 }
 
 .greetingSub {
   font-size: 41px;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  color: #e7dfdd;
+  color: #000000;
 }
 
 .greetingSub1 {
@@ -28,16 +28,16 @@
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  color: #e7dfdd;
+  color: #000000;
 }
 
 @keyframes shiftIn {
   from {
-    transform: translateX(-30px); /* Initial position outside the viewport */
+    transform: translateX(-30px);
     opacity: 0;
   }
   to {
-    transform: translateX(0); /* Final position at center */
+    transform: translateX(0);
     opacity: 1;
   }
 }
