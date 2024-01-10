@@ -13,7 +13,18 @@
   height: 45rem;
   transition: all 0.2s;
   position: relative;
+  backdrop-filter: blur(10px);
   cursor: pointer;
+}
+
+img {
+  width: 24px;
+  height: 24px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .card-inner {
@@ -23,6 +34,20 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(10px);
   border-radius: 8px;
+
+  .icon {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .text {
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 15px;
+    color: #8ac3d8e4;
+    margin-top: 4rem;
+  }
+
 }
 
 .card:hover {
