@@ -2,37 +2,20 @@
 
 .greetingContainer {
   text-align: center;
-  animation: shiftIn 1s ease-out;
+  animation: shiftIn .75s ease-out;
   align-items: center;
   justify-content: center;
   margin-top: 18rem;
 }
 
-
-.greetingMain {
-  margin-left: -17rem;
-  font-size: 18px;
+.titleMain {
+  margin-left: 25rem;
+  font-size: 5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   color: #92d9f3;
 }
 
-.greetingSub {
-  font-size: 41px;
-  animation: shiftIn 1s ease-out;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  color: #000000;
-}
-
-.greetingSub1 {
-  margin-left: -4rem;
-  animation: shiftIn 1.05s ease-out;
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  color: #000000;
-}
 
 @keyframes shiftIn {
   from {

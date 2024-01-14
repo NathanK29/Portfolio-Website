@@ -17,16 +17,6 @@
   cursor: pointer;
 }
 
-img {
-  width: 24px;
-  height: 24px;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-
-  &:hover {
-    transform: scale(1.1);
-  }
-}
-
 .card-inner {
   width: inherit;
   height: inherit;
@@ -35,19 +25,41 @@ img {
   backdrop-filter: blur(10px);
   border-radius: 8px;
 
-  .icon {
+  .icon-container {
     margin-top: 2rem;
+    margin-left: auto;
     margin-left: 2rem;
-  }
+    display: flex;
+    align-items: center;
 
-  .text {
-    font-family: "Montserrat";
-    font-weight: bolder;
-    font-size: 15px;
-    color: #8ac3d8e4;
-    margin-top: 4rem;
-  }
+    img {
+      width: 24px;
+      height: 24px;
+    }
 
+    &:hover {
+      transform: scale(1.01);
+
+      .text {
+        color: rgb(39, 39, 40);
+        text-decoration: underline;
+      }
+    }
+
+    .icon {
+      margin-top: 2rem;
+      margin-left: auto;
+      margin-left: 2rem;
+      display: flex;
+      align-items: center;
+    }
+    .text {
+      font-family: "Montserrat";
+      font-size: 15px;
+      margin-left: 1rem;
+      color: #3e3e3ee4;
+    }
+  }
 }
 
 .card:hover {
@@ -56,10 +68,11 @@ img {
 
 .greeting {
   font-family: "Montserrat";
+  font-size: 2.5rem;
   display: flex;
   justify-content: center;
   color: #000000;
-  padding-top: 20px; /* Use padding-top instead of margin-top */
+  padding-top: 20px;
   font-weight: bolder;
 }
 
@@ -97,11 +110,11 @@ img {
 
 @keyframes shiftDown {
   from {
-    transform: translateY(-25px); /* Initial position outside the viewport */
+    transform: translateY(-25px);
     opacity: 0;
   }
   to {
-    transform: translateX(0); /* Final position at center */
+    transform: translateX(0);
     opacity: 1;
   }
 }

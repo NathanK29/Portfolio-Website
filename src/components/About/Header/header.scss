@@ -1,0 +1,26 @@
+.greetingContainer {
+    text-align: center;
+    animation: shiftRight 0.75s ease-out;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18rem;
+  }
+  
+  .header {
+    margin-left: 30rem;
+    font-size: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: #92d9f3;
+  }
+  
+  @keyframes shiftRight {
+    from {
+      transform: translateX(-30px); 
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }

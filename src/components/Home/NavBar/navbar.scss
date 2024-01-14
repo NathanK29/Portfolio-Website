@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
 
 nav {
-  background-color: #1e1f1f;
-  padding: 0.2rem;
+  background-color: #2a2a2f; // Maybe #39393F or just black
   display: flex;
   justify-content: center;
   padding-left: 2.5%;
@@ -17,7 +16,6 @@ nav {
       display: inline-block;
       margin-right: 6rem;
       font-size: 14px;
-      font-weight: 401;
 
       a {
         text-decoration: none;

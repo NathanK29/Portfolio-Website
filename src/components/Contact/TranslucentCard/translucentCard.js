@@ -11,18 +11,18 @@ const TranslucentCard = () => (
       <div className="circle"></div>
       <div className="card-inner">
         <h1 className="greeting">Contact</h1>
-        <div className="icon">
-          <img src={gitHubLogo} alt="GitHub" />
-          <span className="text">github.com/dsds</span>
-        </div>
-        <div className="icon">
-          <img src={linkedInLogo} alt="LinkedIn" width="24" height="24" />
-          <span className="text">linkedin.com/dsds</span>
-        </div>
-        <div className="icon">
-          <img src={gmailLogo} alt="Gmail" width="24" height="24" />
-          <span className="text">aznathan29@gmail.com</span>
-        </div>
+        <div className="icon-container" href="https://github.com/NathanK29" target="_blank" rel="noopener noreferrer">
+            <img src={gitHubLogo} alt="GitHub" />
+            <span className="text">https://github.com/NathanK29</span>
+          </div>
+          <div className="icon-container" href="https://www.linkedin.com/in/nathan-kumar-1b6a7b28b/" target="_blank" rel="noopener noreferrer">
+            <img src={linkedInLogo} alt="LinkedIn" width="24" height="24" />
+            <span className="text">https://www.linkedin.com/in/nathan-kumar-1b6a7b28b/</span>
+          </div>
+          <div className="icon-container" href="mailto:aznathan29@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img src={gmailLogo} alt="Gmail" width="24" height="24" />
+            <span className="text">aznathan29@gmail.com</span>
+          </div>
       </div>
     </div>
   </div>
