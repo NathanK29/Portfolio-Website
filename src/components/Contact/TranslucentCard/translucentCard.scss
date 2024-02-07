@@ -39,11 +39,6 @@
 
     &:hover {
       transform: scale(1.01);
-
-      .text {
-        color: rgb(39, 39, 40);
-        text-decoration: underline;
-      }
     }
 
     .icon {
@@ -57,7 +52,7 @@
       font-family: "Montserrat";
       font-size: 15px;
       margin-left: 1rem;
-      color: #3e3e3ee4;
+      color: #000000e4;
     }
   }
 }

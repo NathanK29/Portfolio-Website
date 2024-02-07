@@ -1,9 +1,8 @@
 import React from "react";
 import "./list.scss";
+import rmrContent from"../../../assets/Projects/RateMyRestroom/rmr.txt";
 
 const list = () => {
-    // projects = [];
-    // for (project in )
 
   return (
     <div className="greetingContainer">
